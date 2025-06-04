@@ -17,11 +17,11 @@ class Config(object):
     # other configs
     BOT_UPTIME  = time.time()
     START_PIC   = os.environ.get("START_PIC", "https://w0.peakpx.com/wallpaper/290/313/HD-wallpaper-anime-jujutsu-kaisen-satoru-gojo-boy.jpg")
-    ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '6302971969 7086472788 6039119180 1136967391').split()]
-    FORCE_SUB_CHANNELS = os.environ.get('FORCE_SUB_CHANNELS', 'Bots_Nation,Bots_Nation_Support').split(',')
-    LOG_CHANNEL = os.environ.get("LOG_CHANNEL", "-")
-    DUMP_CHANNEL = os.environ.get("DUMP_CHANNEL", "-")
-    BOT_USERNAME = os.environ.get("BOT_USERNAME", "AutoRenamerXBOt")
+    ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '6497757690').split()]
+    FORCE_SUB_CHANNELS = os.environ.get('FORCE_SUB_CHANNELS', 'Mythic_Bots,MythicBot_Support').split(',')
+    LOG_CHANNEL = os.environ.get("LOG_CHANNEL", "-1002686116676")
+    DUMP_CHANNEL = os.environ.get("DUMP_CHANNEL", "-1002629771463")
+    BOT_USERNAME = os.environ.get("BOT_USERNAME", "AnimeXAuto_RenameBot")
     #TOKEN_API = "https://instantearn.in/api?api=fa0dc64a5224ed38ec7b25c70f40922a1f8aeb15&format=text"
     TOKEN_API = "acc6e6472d44943f4f91ae36e4e2431d432c59fe"
     SHORTENER_URL = "https://droplink.co/api"
