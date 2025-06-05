@@ -19,7 +19,7 @@ class Config(object):
     START_PIC   = os.environ.get("START_PIC", "https://w0.peakpx.com/wallpaper/290/313/HD-wallpaper-anime-jujutsu-kaisen-satoru-gojo-boy.jpg")
     ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '6351721062').split()]
     FORCE_SUB_CHANNELS = os.environ.get('FORCE_SUB_CHANNELS', 'Mythic_Bots,MythicBot_Support').split(',')
-    LOG_CHANNEL = os.environ.get("LOG_CHANNEL", "-1002686116676")
+    LOG_CHANNEL = os.environ.get("LOG_CHANNEL", "-1002629771463")
     DUMP_CHANNEL = os.environ.get("DUMP_CHANNEL", "-1002475576837")
     BOT_USERNAME = os.environ.get("BOT_USERNAME", "AnimeXAuto_RenameBot")
     #TOKEN_API = "https://instantearn.in/api?api=fa0dc64a5224ed38ec7b25c70f40922a1f8aeb15&format=text"
