@@ -290,8 +290,8 @@ async def handle_token_redemption(client: Client, message: Message, token_id: st
         await message.reply("❌ An error occurred while processing your request. Please try again.")
 
 @Client.on_message(filters.private & filters.command("start"))
-await client.send_message(chat_id=Config.DUMP_CHANNEL, text="Bot is connected to dump channel ✅")
 async def start(client, message: Message):
+await client.send_message(chat_id=Config.DUMP_CHANNEL, text="Bot is connected to dump channel ✅")
     if len(message.command) > 1:
         token_id = message.command[1]
         await handle_token_redemption(client, message, token_id)
